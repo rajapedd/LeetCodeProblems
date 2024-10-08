@@ -1,4 +1,4 @@
-package com.raja.medium;
+package com.raja.prefix.rangesumquery;
 
 //560. Subarray Sum Equals K
 //

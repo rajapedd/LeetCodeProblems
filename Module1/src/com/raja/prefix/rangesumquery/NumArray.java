@@ -1,7 +1,7 @@
-package com.raja.easy.prefix.rangesumquery;
+package com.raja.prefix.rangesumquery;
 
 import java.util.Arrays;
-
+//L303
 public class NumArray {
     int[] prefixSum;
     public NumArray(int[] nums){

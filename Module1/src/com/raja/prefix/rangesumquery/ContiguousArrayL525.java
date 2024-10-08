@@ -1,8 +1,8 @@
-package com.raja.easy.prefix.rangesumquery;
+package com.raja.prefix.rangesumquery;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//
 public class ContiguousArrayL525 {
 
     public static void main(String[] args) {

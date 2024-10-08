@@ -1,4 +1,4 @@
-package com.raja.easy.prefix.rangesumquery;
+package com.raja.prefix.rangesumquery;
 
 public class NumArrayClient {
     public static void main(String[] args) {
