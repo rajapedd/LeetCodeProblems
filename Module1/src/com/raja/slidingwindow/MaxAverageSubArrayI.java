@@ -15,9 +15,12 @@ public class MaxAverageSubArrayI {
         int substractIndex=0;
         for(int i=0;i<nums.length;i++){
             windowSum+=nums[i];
-            maxSum=Math.max(maxSum,windowSum);
-            windowSum-=nums[substractIndex];
-            substractIndex++;
+            if(i>=k-1){
+                maxSum=Math.max(maxSum,windowSum);
+                windowSum-=nums[substractIndex];
+                substractIndex++;
+            }
+
         }
         System.out.println((maxSum));
        return (double)maxSum/k;
